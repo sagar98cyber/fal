@@ -42,8 +42,8 @@ function App() {
         <Route path = '/exporthubj8' exact component={exporthubj8}></Route>
         <Route path = '/exporthubj9' exact component={exporthubj9}></Route>
         <Route path = '/exporthub' exact component={ExportHub}></Route>
-        <Route path = '/fal/info/' exact component={Info}></Route>
-        <Route path = '/mumbai' exact component = {Mumbai}></Route>
+        <Route path = '/fal/info' exact component={Info}></Route>
+        <Route path = '/fal/mumbai' exact component = {Mumbai}></Route>
         <Route path = '/nmumbai' exact component = {NMumbai}></Route>
         <Route path = '/p' exact component = {Pune}></Route>
         <Route path = '/airoli' exact component = {Airoli}></Route>

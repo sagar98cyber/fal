@@ -34,7 +34,7 @@ import { BiMap } from 'react-icons/bi'
                                     <BiMap className="map" size={25} color="#5BB971" />
                                         <MuiThemeProvider>
                                         <Typography variant="p" gutterBottom>
-                                            <Link to={`${station}`} className='station'>
+                                            <Link to={`/fal/${station}`} className='station'>
                                                 {station}                                       
                                             </Link>
                                         </Typography>
