@@ -10,10 +10,10 @@ function Navbar() {
     return (
         <>
           <nav className="navbar">    
-                    <Link to='/' className = 'navbar-logo'>
+                    <Link to='/fal/' className = 'navbar-logo'>
                         VoLo
                     </Link>
-                    <Link to ='/info'>
+                    <Link to ='/fal/info'>
                         <div className = 'menu-icon'  >{/*onClick={handleClick}*/}
                             <i class = 'fas fa-info-circle' />
                             {/* <i class={ click ? "fas fa-info-circle":"fas fa-bars"}></i>*/}
