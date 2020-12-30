@@ -1,0 +1,52 @@
+ <div className='home'>
+            <Link to = '/mumbai'>  
+                <Button className='mumbai ' styles={{}}>Mumbai</Button>
+            </Link>
+        </div>
+
+        <img src="src\Media\Scroll Group 1.png"></img>
+
+         <>
+                    <img src={m} alt="Mumbai" />
+                    </>
+
+
+
+
+
+
+
+
+
+
+                    <div className="container"></div>
+            {shops.map(src=>(
+                <div
+                    key={src} className="card" style={{backgroundImage:`url${src}`}}
+                />
+            ))}
+
+
+            const shops = ["https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048","https://img.bleacherreport.net/img/images/photos/003/882/208/hi-res-67ba2cd4215bff0d322be08e173488e7_crop_north.jpg?1598817098&w=3072&h=2048",]
+
+            ::-webkit-scrollbar{
+    width:0px;
+}
+
+.container{
+    display: flex;
+    overflow-x: scroll;
+    width:100%;
+}
+
+.card{
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}

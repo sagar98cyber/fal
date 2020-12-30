@@ -1,0 +1,31 @@
+.category{
+    margin-top: 0px;
+   background: linear-gradient(to bottom right, #000000 20%,#545454 );
+   color: white;
+   height: 90vh;
+   align-items: center;
+   justify-content: center;
+   overflow-y: auto;   
+}
+
+.name:hover{
+    cursor: default;
+}
+
+.catname{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 0%;
+    color:whitesmoke;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.catname{
+    cursor: default;
+}

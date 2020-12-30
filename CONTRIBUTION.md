@@ -1,0 +1,1 @@
+BUILD A SHOP INFO PAGE, PRODUCTS PAGE AS PER THE IMAGE shops.png, products.png uploaded right now

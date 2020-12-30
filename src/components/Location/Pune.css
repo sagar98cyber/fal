@@ -1,0 +1,47 @@
+.cityname{
+   margin-top: 0px;
+   background: linear-gradient(to bottom right, #000000 20%,#545454 );
+   color: white;
+   height: 90vh;
+   align-items: center;
+   justify-content: center;
+   overflow-y: auto;
+   
+}
+
+
+.pin{
+  margin-right: 10px;
+}
+
+.name{
+  padding: 25px;
+  text-align: center;
+  color: #45F8C2;
+  font-weight: 600;
+  font-size: 4rem;
+  text-shadow:  none ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.name:hover{
+  text-shadow: 2px 2px 10px #45F8C2;
+}
+.stations{
+  padding: 25px;
+}
+
+.stations{
+  text-align: center;
+  color:white;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.station{
+  color: white;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+

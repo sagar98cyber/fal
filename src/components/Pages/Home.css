@@ -1,0 +1,53 @@
+.home{
+  /*padding-top: 25px;*/
+  padding-right: 25px;
+    background: linear-gradient(to bottom right, #000000 20%,#545454 );
+    color: white;
+    overflow-y: auto;   
+}
+
+.bmumbai:hover{
+   transform: scaleY(.95);
+}
+
+.bmumbai{
+  position: relative;
+  max-width: 100%;
+  
+  border-radius: 10px;
+  border-color: white;
+}
+.bmmumbai{
+  /*margin-top: 25px;*/
+ /* padding-top: 100px;*/
+}
+.loc{
+  justify-content: center;
+  color: white;
+  /*margin-top: 10px;*/
+  
+  margin-left: 25px;
+  /*margin: auto;*/
+}
+
+.child{
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 35px;
+  /*text-align: justify;*/
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+.responsive{
+  margin-top: 25px;
+  /*box-shadow: 10px 5px 5px black;*/
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
