@@ -31,7 +31,7 @@ function App() {
       <Navbar/>
       <Switch>
         
-        <Route path = '/' exact component={Home}></Route>
+        <Route path = 'fal/' exact component={Home}></Route>
         <Route path = '/exporthubj1' exact component={exporthubj1}></Route>
         <Route path = '/exporthubj2' exact component={exporthubj2}></Route>
         <Route path = '/exporthubj3' exact component={exporthubj3}></Route>
